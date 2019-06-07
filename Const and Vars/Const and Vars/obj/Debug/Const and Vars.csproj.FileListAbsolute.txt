@@ -1,0 +1,6 @@
+C:\Users\ashel\source\repos\Const and Vars\Const and Vars\bin\Debug\Const and Vars.exe.config
+C:\Users\ashel\source\repos\Const and Vars\Const and Vars\bin\Debug\Const and Vars.exe
+C:\Users\ashel\source\repos\Const and Vars\Const and Vars\bin\Debug\Const and Vars.pdb
+C:\Users\ashel\source\repos\Const and Vars\Const and Vars\obj\Debug\Const and Vars.csproj.CoreCompileInputs.cache
+C:\Users\ashel\source\repos\Const and Vars\Const and Vars\obj\Debug\Const and Vars.exe
+C:\Users\ashel\source\repos\Const and Vars\Const and Vars\obj\Debug\Const and Vars.pdb
