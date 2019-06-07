@@ -1,0 +1,7 @@
+C:\Users\ashel\source\repos\Enums v2 lel\Enums v2 lel\bin\Debug\Enums v2 lel.exe.config
+C:\Users\ashel\source\repos\Enums v2 lel\Enums v2 lel\bin\Debug\Enums v2 lel.exe
+C:\Users\ashel\source\repos\Enums v2 lel\Enums v2 lel\bin\Debug\Enums v2 lel.pdb
+C:\Users\ashel\source\repos\Enums v2 lel\Enums v2 lel\obj\Debug\Enums v2 lel.csprojAssemblyReference.cache
+C:\Users\ashel\source\repos\Enums v2 lel\Enums v2 lel\obj\Debug\Enums v2 lel.csproj.CoreCompileInputs.cache
+C:\Users\ashel\source\repos\Enums v2 lel\Enums v2 lel\obj\Debug\Enums v2 lel.exe
+C:\Users\ashel\source\repos\Enums v2 lel\Enums v2 lel\obj\Debug\Enums v2 lel.pdb
