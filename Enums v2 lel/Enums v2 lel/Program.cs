@@ -39,3 +39,4 @@ namespace Enums_v2_lel
 //The value of enum constants starts from 0 (same as arrays). Enum can have value of any valid numeric type.
 //String enum is not supported in C#.
 //Use of enum makes code more readable and manageable.
+// test
