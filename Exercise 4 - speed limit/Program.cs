@@ -15,6 +15,7 @@ namespace Exercise_4___speed_limit
             inputSpeed = Convert.ToInt32(Console.ReadLine());
 
             int overTheLimit = inputSpeed - speedLimit;
+            int demeritPoints = 5;
 
             if (inputSpeed < speedLimit)
             {
@@ -22,7 +23,7 @@ namespace Exercise_4___speed_limit
             }
             else
             {
-                Console.WriteLine("Your speed was " + overTheLimit + "km/h over the limit. This results in " + overTheLimit / 5 + " demerit points.");
+                Console.WriteLine("Your speed was " + overTheLimit + "km/h over the limit. This results in " + overTheLimit / demeritPoints + " demerit points.");
             }
         }
     }
