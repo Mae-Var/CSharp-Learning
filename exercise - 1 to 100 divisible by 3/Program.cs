@@ -12,7 +12,7 @@ namespace exercise___1_to_100_divisible_by_3
                 if (i % 3 == 0)
                     counter++;
             }
-            Console.WriteLine("The total of numbers divisble by 3 between 1-100 is: {0}", counter);
+            Console.WriteLine("The total of numbers divisble by 3 between 1-100 is {0}", counter);
         }
     }
 }
