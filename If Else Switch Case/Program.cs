@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace If_Else_Switch_Case
 {
@@ -10,6 +7,19 @@ namespace If_Else_Switch_Case
     {
         static void Main(string[] args)
         {
+            int hour = 19;
+            if (hour > 0 && hour < 12)
+            {
+                Console.WriteLine("It's morning.");
+            }
+            else if (hour >= 12 && hour < 18)
+            {
+                Console.WriteLine("It's afternoon.");
+            }
+            else
+            {
+                Console.WriteLine("It's evening.");
+            }
         }
     }
 }
