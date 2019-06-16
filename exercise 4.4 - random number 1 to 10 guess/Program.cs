@@ -6,7 +6,7 @@ namespace exercise_4._4___random_number_1_to_10_guess
     {
         static void Main(string[] args)
         {
-            var random = new Random();
+            Random random = new Random();
             int randomnumber = random.Next(1, 11);
             int guessCounter = 0;
             bool answerStatus = false;
