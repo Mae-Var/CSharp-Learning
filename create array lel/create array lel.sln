@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create array lel", "create array lel.csproj", "{DA236CC0-C5D0-41F9-BC69-D67EED6B2A52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA236CC0-C5D0-41F9-BC69-D67EED6B2A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA236CC0-C5D0-41F9-BC69-D67EED6B2A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA236CC0-C5D0-41F9-BC69-D67EED6B2A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA236CC0-C5D0-41F9-BC69-D67EED6B2A52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E810CB41-D04B-49FF-985D-16E25AEE3C3E}
+	EndGlobalSection
+EndGlobal
