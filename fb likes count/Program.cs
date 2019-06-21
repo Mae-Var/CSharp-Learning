@@ -22,7 +22,7 @@ namespace exercise_3._1___facebook_likes_and_names
 
             if (peopleList.Count > 2)
             {
-                Console.WriteLine("{0}, {1} and {3} others like your post.", peopleList[0], peopleList[1], peopleList.Count - 2);
+                Console.WriteLine("{0}, {1} and {2} others like your post.", peopleList[0], peopleList[1], peopleList.Count - 2);
             }
             else if (peopleList.Count == 1)
             {
