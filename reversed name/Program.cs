@@ -8,7 +8,7 @@ namespace reversed_name
         {
             char[] letter = name.ToCharArray();
 
-            for (int i = 0; i < letter.Length / 2; i++)
+            for (int i = 0; i < letter.Length / 2; i++) // adding / 2 so the reversal wont go
             {
                 char temp = letter[i]; // N out of STEFAN
                 letter[i] = letter[letter.Length - 1 - i]; //Output: NAFFAN
