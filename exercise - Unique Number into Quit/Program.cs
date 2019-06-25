@@ -16,11 +16,11 @@ namespace exercise___Unique_Number_into_Quit
             // Console.WriteLine("Please, add numbers and once you want to see the result, type in 'quit':");
 
             Console.Write("Enter a number or 'Quit' to exit and see all the unique numbers: ");
+            var input = Console.ReadLine();
 
-            while (true)
+            while (input != "quit")
             {
                 Console.Write("Enter next number or 'Quit': ");
-                var input = Console.ReadLine();
 
                 if (input.ToLower() == "quit")
                 {
