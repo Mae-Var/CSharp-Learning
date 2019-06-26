@@ -24,6 +24,19 @@ namespace strings_in_depth
             var names = fullName.Split(' ');
             Console.WriteLine("First name after .Split: " + names[0]);
             Console.WriteLine("Last name after .Split: " + names[1]);
+
+            Console.WriteLine(fullName.Replace("Boyan", "Bobby")); // changes part of the string with another string - does not amend the original string though.
+
+            if (String.IsNullOrWhiteSpace(" ")) // you can use IsNullOrEmpty() and add either "" or null to get the invalid result.
+            {
+                Console.WriteLine("Invalid");
+            }
+
+            var str = "25";
+            var age = Convert.ToByte(str);
+
+            float price = 29.95f;
+            Console.WriteLine(price.ToString("C0")); // C will provide full amount + $ sign, C0 will provide round price without cents + visible $ sign.
         }
     }
 }
