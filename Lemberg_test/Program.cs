@@ -37,6 +37,11 @@ namespace Lemberg_test
             a = a.Replace(" ", string.Empty).ToLower();
             b = b.Replace(" ", string.Empty).ToLower();
 
+            if (a.Length != b.Length)
+            {
+                return false;
+            }
+
             char[] arrayA = a.ToCharArray();
             char[] arrayB = b.ToCharArray();
             Array.Sort(arrayA);
