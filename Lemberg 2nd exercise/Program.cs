@@ -56,6 +56,3 @@ namespace Lemberg_2nd_exercise
         }
     }
 }
-
-
-// googled: https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1
