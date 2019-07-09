@@ -23,16 +23,19 @@ namespace Lemberg_2nd_exercise
                 if (input == "t" || input == "time")
                 {
                     string timeNow = DateTime.Now.ToString("hh:mm tt");
+
                     Console.WriteLine("The time is: " + timeNow);
                 }
                 else if (input == "d" || input == "date")
                 {
                     string dateNow = DateTime.Now.ToString("yyyy-MMM-dd");
+
                     Console.WriteLine("The date is: " + dateNow);
                 }
                 else if (input == "s" || input == "sum")
                 {
                     Console.WriteLine("Please, enter 2 numbers: ");
+
                     int one = NumCheck();
                     int two = NumCheck();
 
@@ -52,9 +55,13 @@ namespace Lemberg_2nd_exercise
         private static int NumCheck()
         {
             int x;
+
             Console.Write("Enter two valid numbers (int): ");
+
             while (!int.TryParse(Console.ReadLine(), out x))
-            Console.Write("This is not a number, try again: ");
+            {
+                Console.Write("This is not a number, try again: ");
+            }
             return x;
         }
         static int Sum(int a, int b)
